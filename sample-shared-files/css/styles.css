@@ -1,0 +1,73 @@
+* {
+  font-size: 100%;
+  font-family: 'Source Sans Pro', Helvetica, sans-serif;
+  color: white;
+}
+
+html {
+  overflow: auto;
+  height: 100%;
+  background: rgb(13,165,177);
+  background: -webkit-gradient(left, rgba(9, 181, 163, .95), rgba(18, 146, 193, .95)) no-repeat center center fixed;
+  background: -webkit-linear-gradient(left, rgba(9, 181, 163, .95), rgba(18, 146, 193, .95)) no-repeat center center fixed;
+  background: linear-gradient(to right, rgba(9, 181, 163, .95), rgba(18, 146, 193, .95)) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#09b5a3', endColorstr='#1292c1',GradientType=1 );
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.navbar {
+  background-color: #111;
+  width: 318px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-bottom: 16px;
+  z-index: 1;
+}
+
+@media (max-width: 1280px) {
+  .navbar {
+    display: none;
+  }
+}
+
+.navbar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 24px;
+  color: #818181;
+  display: block;
+  font-weight: 400;
+}
+
+.navbar a:hover {
+  color: rgb(13, 165, 177);
+}
+
+.logoContainer {
+  width: 250px;
+  margin: 15px auto;
+  color:white;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+}
+
+.logo {
+  height: 75px;
+}
